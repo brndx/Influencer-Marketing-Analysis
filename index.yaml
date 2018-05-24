@@ -1,0 +1,13 @@
+indexes:
+- kind: IMA
+  ancestor: yes
+  properties:
+  - name: Title
+  - name: Year
+  - name: Developer
+  - name: Score
+  - name: Positive
+  - name: Negative
+  - name: Neutral
+  - name: Date
+    direction: desc

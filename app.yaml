@@ -1,0 +1,20 @@
+application: IMA
+version: 1
+runtime: go
+api_version: go1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+- url: /.*
+  script: index.go
+- url: /.*
+  script: add.go
+- url: /.*
+  script: settings.go
+- url: /.*
+  script: select.go
+- url: /.*
+  script: basic.go
+- url: /.*
+  script: advanced.go
